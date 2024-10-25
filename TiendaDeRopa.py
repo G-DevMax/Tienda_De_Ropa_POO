@@ -131,9 +131,6 @@ class Tienda:
                 print(f"Producto '{producto.get_nombre()}' agregado al carrito.\n")
                 return
         print("Producto no encontrado. O sin existencias")
-
-    def finalizar_compra(self):
-        self.__carrito.m()
     
     def menu(self):
         while True:
